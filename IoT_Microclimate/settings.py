@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'IoT_Microclimate',
 ]
 
 MIDDLEWARE = [
@@ -73,6 +74,16 @@ WSGI_APPLICATION = 'IoT_Microclimate.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
+"""
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'iot',
+        'USER': 'teemosha',
+        'PASSWORD': 'Letovo1',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PORT': '3306',
+    }
+    """
 
 DATABASES = {
     'default': {
