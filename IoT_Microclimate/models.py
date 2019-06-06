@@ -9,6 +9,7 @@ class DataFrame(models.Model):
     pressure = models.IntegerField()
     co2 = models.IntegerField()
     co = models.IntegerField()
+    time = models.TimeField()
     charge = models.IntegerField()
 
     def __str__(self):
